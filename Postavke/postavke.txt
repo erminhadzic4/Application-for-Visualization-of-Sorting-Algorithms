@@ -1,0 +1,5 @@
+Ispisivanje pristupa = ISKLJUCENO
+Ispisivanje poredenja = ISKLJUCENO
+Ispisivanje i pristupa i poredenja = ISKLJUCENO
+Ispisivanje vremena izvrsavanja = ISKLJUCENO
+Spasavanje informacija o poredenju u file = ISKLJUCENO

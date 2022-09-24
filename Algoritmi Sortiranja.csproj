@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9DDB647D-9F0B-42A9-B12B-2A4E509A707B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Algoritmi_Sortiranja</RootNamespace>
+    <AssemblyName>Algoritmi Sortiranja</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons8-e-64.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Algoritmi\ShellSort.cs" />
+    <Compile Include="Boja.cs" />
+    <Compile Include="Algoritmi\BubbleSort.cs" />
+    <Compile Include="Forme\TabelaForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\TabelaForma.Designer.cs">
+      <DependentUpon>TabelaForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\PostavkeForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\PostavkeForma.Designer.cs">
+      <DependentUpon>PostavkeForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\ShellForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\ShellForma.Designer.cs">
+      <DependentUpon>ShellForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\UporediForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\UporediForma.Designer.cs">
+      <DependentUpon>UporediForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlavnaForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlavnaForma.Designer.cs">
+      <DependentUpon>GlavnaForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\BubbleForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\BubbleForma.Designer.cs">
+      <DependentUpon>BubbleForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\InsertionForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\InsertionForma.Designer.cs">
+      <DependentUpon>InsertionForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\MaxHeapForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\MaxHeapForma.Designer.cs">
+      <DependentUpon>MaxHeapForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\MergeForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\MergeForma.Designer.cs">
+      <DependentUpon>MergeForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\QuickForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\QuickForma.Designer.cs">
+      <DependentUpon>QuickForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\RadixForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\RadixForma.Designer.cs">
+      <DependentUpon>RadixForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\SelectionForma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\SelectionForma.Designer.cs">
+      <DependentUpon>SelectionForma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Algoritmi\InsertionSort.cs" />
+    <Compile Include="Algoritmi\MaxHeapSort.cs" />
+    <Compile Include="Algoritmi\MergeSort.cs" />
+    <Compile Include="Algoritmi\QuickSort.cs" />
+    <Compile Include="Algoritmi\RadixSort.cs" />
+    <Compile Include="Algoritmi\SelectionSort.cs" />
+    <Compile Include="MojeCustomDugme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SortEngine.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forme\PostavkeForma.resx">
+      <DependentUpon>PostavkeForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\ShellForma.resx">
+      <DependentUpon>ShellForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\TabelaForma.resx">
+      <DependentUpon>TabelaForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\UporediForma.resx">
+      <DependentUpon>UporediForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlavnaForma.resx">
+      <DependentUpon>GlavnaForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\BubbleForma.resx">
+      <DependentUpon>BubbleForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\InsertionForma.resx">
+      <DependentUpon>InsertionForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\MaxHeapForma.resx">
+      <DependentUpon>MaxHeapForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\MergeForma.resx">
+      <DependentUpon>MergeForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\QuickForma.resx">
+      <DependentUpon>QuickForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\RadixForma.resx">
+      <DependentUpon>RadixForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\SelectionForma.resx">
+      <DependentUpon>SelectionForma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons8-e-64.ico" />
+    <Content Include="Resursi\icons8-undo-24.png" />
+    <Content Include="Resursi\icons8-undo-48.png" />
+    <Content Include="Resursi\icons8-undo-96.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
