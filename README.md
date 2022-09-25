@@ -9,7 +9,7 @@
   
 ## Algorithms
   
-  | Algorithms | Pros | Cons |
+  | Algorithm | Pros | Cons |
   | --- | --- | --- |
   | **Bubble sort** | Popular and easy to implement.  | Does not deal well with a list containing a huge number of items. |
   | **Quick sort** | Best sorting algorithm that deals very well with large list. | Disadvantage with the worst case efficiency. |
