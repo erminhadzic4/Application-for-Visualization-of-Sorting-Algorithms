@@ -33,7 +33,6 @@ namespace Algoritmi_Sortiranja
                     brojPoredjenja ++;
                     Zamijeni(i, i + 1);
                 }
-            System.Threading.Thread.Sleep(50);
         }
 
         private void Zamijeni(int i, int v)
